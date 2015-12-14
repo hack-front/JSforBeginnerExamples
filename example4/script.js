@@ -12,6 +12,33 @@
 	//console.log([2, 4, "displayed"]);
 
 
+// Creating an empty array
+
+	var firstArr = [];
+
+	console.log(firstArr);
 
 
-// 
+// Adding to an existing array
+	
+	firstArr[0] = "New Word";
+	firstArr[1] = "Look it up";
+
+	console.log(firstArr);
+
+	firstArr.push("Third entry");
+	//console.log(firstArr);
+
+	firstArr.unshift("Second addition");
+	//console.log(firstArr);
+
+
+// Removing from an existing array
+	
+	firstArr.pop();
+	//console.log(firstArr);
+
+	firstArr.shift();
+	//console.log(firstArr);
+
+	
