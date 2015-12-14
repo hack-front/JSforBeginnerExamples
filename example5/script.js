@@ -11,6 +11,10 @@ firstArr.push("planet");
 //console.log(firstArr);
 //console.log(secondArr);
 
+secondArr[0] = "greetings";
+
+//console.log(firstArr);
+//console.log(secondArr);
 
 // Accessing an item in the array
 
