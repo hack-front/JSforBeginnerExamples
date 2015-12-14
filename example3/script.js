@@ -1,14 +1,6 @@
 // The following javascript must be used by an html file
 // Javascript is useless by itself
 
-// Arrays
+// Strings are a primitive type
 
-    [1, 2, 3, 4, 5, 12, 53, 3, 12, 3];
-    ["hi", "this", "is", "an", "array"];
-    [4, "mixed", 31, "32", "up", true];
-
-// You can console.log arrays
-
-	//console.log([2, 4, "displayed"]);
-
-// 
+var myFirstStr = "The first string in this script. Wow."

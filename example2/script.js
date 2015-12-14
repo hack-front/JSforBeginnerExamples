@@ -41,7 +41,7 @@
 
 
 
-	// NOTE: Setting a variable equal to another variable with a PRIMITIVE value, 
+	// NOTE: Setting a variable equal to another variable with a PRIMITIVE value results in two variables with their own values.
 
 
 
