@@ -1,13 +1,48 @@
 // The following javascript must be used by an html file
 // Javascript is useless by itself
 
-// Arrays
+// Assign values to a variable in order to use it repeatedly
+	
 
-    [1, 2, 3, 4, 5, 12, 53, 3, 12, 3];
-    ["hi", "this", "is", "an", "array"];
-    [4, "mixed", 31, "32", "up", true];
+	// First declare a variable name
+		var myFirstVariable;
 
-// You can console.log arrays
+	// After declaring it, give the variable a value
+		myFirstVariable = "Wow, this is the value I am giving my first variable!";
 
-	var arr = [2, 4, "displayed"]
-	console.log(arr);
+		//console.log(myFirstVariable);
+
+	// You can also combine the declaration and value assignment
+		var mySecondVariable = "Cool, this is value for my second variable!";
+
+
+	// Create some variables here and assign them different values and different datatypes:
+
+
+
+
+	// Quick quiz: Create a console.log which list the three primitive data types.
+
+
+
+
+	// You can set a variable equal to another variable
+
+		var firstVar = "hi guys";
+		var secondVar = firstVar;
+
+		// what are the values of firstVar and secondVar?
+		// console.log("firstVar: ", firstVar, "secondVar: ", secondVar);
+
+
+		secondVar = "bye guys";
+		// what are the values of firstVar and secondVar?
+		// console.log("firstVar: ", firstVar, "secondVar: ", secondVar);
+
+
+
+	// NOTE: Setting a variable equal to another variable with a PRIMITIVE value, 
+
+
+
+//
