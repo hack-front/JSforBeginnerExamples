@@ -41,4 +41,18 @@
 	firstArr.shift();
 	//console.log(firstArr);
 
-	
+// Exercise
+// Create an array with 5 entries
+
+
+// Add 3 more entries to the end
+
+
+// Add another entry to the beginning
+
+
+
+// Change the third entry to "Third Item"
+
+
+// Console.log your array

@@ -6,8 +6,15 @@
 
 var firstObj = { firstKey: "firstValue", secondKey: "secondValue"};
 
-//Setting a variable
+// Setting a variable
 
 firstObj["newKey"] = "Adding a value to an obj";
-firstObj.second = "=Adding "
+firstObj.anotherKey = "Adding another value to an object";
+
+
+// Retrieving data from an object
+
+// console.log(firstObj);
+// console.log(firstObj["firstKey"]);
+// console.log(firstObj.newKey);
 
