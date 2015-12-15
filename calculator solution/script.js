@@ -9,12 +9,12 @@ function calculate(){
 	// console.log(expression);
 
 	// Step 0: remove all empty spaces from the string
-	var cleanExpression;
+	var cleanExpression = expression.replace(" ", "");
 
-
+	
 
 	// Step 1: turn the expression into an array 
-	// Example: 1 + 43 + 15 - 2 = ["1", "+", "43", "+", "15", "-", "2"]
+	// Example: 1 + 43 = ["1", "+", "43"]
 	// Hint: Create a new empty array and loop through the cleanExpression
 	// Stitch together non-operators before pushing them into an array
 
@@ -22,8 +22,10 @@ function calculate(){
 	var tempExpression = "";
 
 	for(var i = 0; i < cleanExpression.length; i++){
-		
 
+		if(cleanExpression[i]=="+" || cleanExpression[i]=="-" || cleanExpression[i]=="*" || cleanExpression[i]=="/"){
+			
+		}
 
 	}
 
@@ -31,6 +33,11 @@ function calculate(){
 	// Step 2: determine which sign is being used and perform the correct math operation
 	// hint: use parseInt(string) to turn a string into a number
 	var answer;
+
+	switch(arr[1]){
+
+	}
+
 
 
 

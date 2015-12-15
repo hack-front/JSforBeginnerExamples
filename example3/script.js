@@ -38,18 +38,9 @@ myFirstStr.replace(string, "motivator");
 
 
 
-// 5. Getting a smaller section of a string
-// substring(beginning, end)
-// substr(beginning, length)
+// 5. Finding the character at a specific location in the string
 
-var myShorterStr = myFirstStr.substring(4, 6);
-
-//console.log(myShorterStr);
-
-
-//Try to isolate each word in the following string using either substring or substr
-
-var newString = "The practice we do today makes perfect";
+//console.log(myFirstStr[3]); 
 
 
 
