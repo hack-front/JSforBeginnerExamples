@@ -12,29 +12,57 @@ console.log(arr[5]); //6
 
 //Let's fix the code above:
 
-
 //while
-while(false){
+
+while(){
 	//chunk of code
 }
 
 
 //for
-for(;false; ){
+for(;; ){
 	//chunk of code
 }
+
+
+//For loop.
+var obj = {
+	key1: 'one',
+	key2: 2,
+	key3: 'three',
+	key4: 4,
+	key5: 'five'
+};
+
+
+for(var key in arr){
+	console.log("index",key);
+	console.log("The value stored at index " + key + " is " + arr[key]);
+}
+//iterating through an array with 'in' keyword is not recommended
+
 
 //do...while
 do {
 
-}while(false);
+}while(bool);
+
+
+
 
 //Exercise #1: Reverse the string below:
 var str = 'Reverse this string.';
+//Insert code here
+
+
+
+
+
+
+
 
 //Exercise #2: Generate a sum of the following numbers with a loop
 var numbers = [3,-5,7,94,0,-88,43];
-
 var sum = 0;
 
 //Insert code here.
