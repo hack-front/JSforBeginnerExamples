@@ -25,21 +25,51 @@ function calculate(){
 
 		if(cleanExpression[i]=="+" || cleanExpression[i]=="-" || cleanExpression[i]=="*" || cleanExpression[i]=="/"){
 			
+
+
+			expressionArr.push(tempExpression);
+			tempExpression="";
+
+			expressionArr.push(cleanExpression[i]);
+		
+		}
+		else{
+	
+			tempExpression = tempExpression + cleanExpression[i];
+
 		}
 
+		if(i == cleanExpression.length-1){
+		
+			expressionArr.push(tempExpression); 
+
+		}
 	}
+
+
 
 
 	// Step 2: determine which sign is being used and perform the correct math operation
 	// hint: use parseInt(string) to turn a string into a number
 	var answer;
 
-	switch(arr[1]){
+	switch(expressionArr[1]){
+		case "+":
+			answer = parseInt(expressionArr[0]) + parseInt(expressionArr[2]);
+			break;
+		case "-":
+			answer = parseInt(expressionArr[0]) - parseInt(expressionArr[2]);
+			break;
+		case "*":
+			answer = parseInt(expressionArr[0]) * parseInt(expressionArr[2]);
+			break;
+		case "/":
+			answer = parseInt(expressionArr[0]) / parseInt(expressionArr[2]);
+			break;
 
+		default:
+			answer = "an error has occurred"
 	}
-
-
-
 
 
 	// Step 3: display the answer in the answer section
