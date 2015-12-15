@@ -8,11 +8,6 @@ console.log(arr[2]); //3
 console.log(arr[3]); //4
 console.log(arr[4]); //5
 console.log(arr[5]); //6
-//Doesn't above code look like you are rewriting same code too much?
-//And what would you do if you wanted to display up to 100 numbers? Would you really want to write the code 100 times?
-//Is there another way to repeat a code without rewriting them?
-//The Answer is YES.
-//Loop is what allows us to REPEAT a chunk of code.
 
 //Let's fix the code above:
 //while
