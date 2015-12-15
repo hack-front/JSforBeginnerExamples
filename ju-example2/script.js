@@ -2,7 +2,7 @@
 //A function in programming is very similar to a math function. 
 //A function CAN accept input(s) and it CAN produce an output.
 //"Side effects" possible.
-//Anything in between the parantheses is an input. We call input parameter/argument (simplified).
+//Anything in between the parantheses is an input. We call the input parameter/argument (simplified).
 //When a function wants to give out an output, the function requires 'return' keyword.
 
 function helloWorld(){ //no input
