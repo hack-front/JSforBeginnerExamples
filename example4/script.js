@@ -12,15 +12,16 @@
 	//console.log([2, 4, "displayed"]);
 
 
-// Creating an empty array
+// 1. Creating an empty array
 
 	var firstArr = [];
 
 	console.log(firstArr);
 
 
-// Adding to an existing array
+// 2. Adding to an existing array
 	
+	// Create an entry at a specific space in the array
 	firstArr[0] = "New Word";
 	firstArr[1] = "Look it up";
 

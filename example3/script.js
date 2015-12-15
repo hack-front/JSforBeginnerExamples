@@ -5,11 +5,40 @@
 
 var myFirstStr = "The first string in this script. Wow."
 
-// Getting the length of a string
+// 1. Getting the length of a string
 
-console.log(myFirstStr.length);
+//console.log(myFirstStr.length);
 
-// Getting a smaller section of a string
+
+
+// 2. Adding strings together
+
+var longString = "wow" + "I added these two strings together";
+//console.log(longString);
+
+var string1 = "This is";
+var string2 = "Cool!";
+
+var string3 = string1 + string2;
+
+
+
+
+
+// 3. Replacing a section of a string
+
+myFirstStr.replace(string, "motivator");
+
+
+
+
+// 4. Finding if a smaller string is in a string
+
+//console.log(myFirstStr.indexOf("first"));
+
+
+
+// 5. Getting a smaller section of a string
 // substring(beginning, end)
 // substr(beginning, length)
 
@@ -24,15 +53,8 @@ var newString = "The practice we do today makes perfect";
 
 
 
-// Replacing a section of a string
-
-myFirstStr.replace(string, "motivator");
 
 
-
-// Finding if a smaller string is in a string
-
-//console.log(myFirstStr.indexOf("first"));
 
 // Exercise
 // Try to extract the string "practice" from the following sentences using both substr and substring

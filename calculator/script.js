@@ -66,4 +66,8 @@ function advancedCalculate(){
 	// Step 3: display the answer in the answer section
 	document.getElementById("myResult").innerHTML = expressionArr[0];
 
+
+	// Challenge:
+	    // Find a way to check for a valid entry
+
 }
